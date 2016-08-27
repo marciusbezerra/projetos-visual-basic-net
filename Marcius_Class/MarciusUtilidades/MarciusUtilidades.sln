@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MarciusUtilidades", "MarciusUtilidades.vbproj", "{10A8D900-CB5B-4578-BE08-F9969BB07E74}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TesteClass", "..\TesteClass\TesteClass.vbproj", "{639BDDEC-9A9B-43F6-8401-1935F972C439}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{10A8D900-CB5B-4578-BE08-F9969BB07E74}.Debug.ActiveCfg = Debug|.NET
+		{10A8D900-CB5B-4578-BE08-F9969BB07E74}.Debug.Build.0 = Debug|.NET
+		{10A8D900-CB5B-4578-BE08-F9969BB07E74}.Release.ActiveCfg = Release|.NET
+		{10A8D900-CB5B-4578-BE08-F9969BB07E74}.Release.Build.0 = Release|.NET
+		{639BDDEC-9A9B-43F6-8401-1935F972C439}.Debug.ActiveCfg = Debug|.NET
+		{639BDDEC-9A9B-43F6-8401-1935F972C439}.Debug.Build.0 = Debug|.NET
+		{639BDDEC-9A9B-43F6-8401-1935F972C439}.Release.ActiveCfg = Release|.NET
+		{639BDDEC-9A9B-43F6-8401-1935F972C439}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

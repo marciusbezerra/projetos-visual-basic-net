@@ -1,0 +1,47 @@
+bin\Debug\Locadora Filmes.exe.config
+bin\Debug\Locadora.mdf
+bin\Debug\Locadora_log.ldf
+bin\Debug\Locadora Filmes.exe
+bin\Debug\Locadora Filmes.pdb
+bin\Debug\Locadora Filmes.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Locadora_Filmes.Resources.resources
+obj\Debug\Locadora Filmes.vbproj.GenerateResource.Cache
+obj\Debug\Locadora Filmes.exe
+obj\Debug\Locadora Filmes.xml
+obj\Debug\Locadora Filmes.pdb
+obj\Debug\Locadora_Filmes.Principal.resources
+bin\Release\Locadora.mdf
+bin\Release\Locadora_log.ldf
+bin\Release\Locadora Filmes.exe.config
+bin\Release\Locadora Filmes.exe
+bin\Release\Locadora Filmes.pdb
+bin\Release\Locadora Filmes.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Locadora_Filmes.Modelo.resources
+obj\Release\Locadora_Filmes.Principal.resources
+obj\Release\Locadora_Filmes.Resources.resources
+obj\Release\Locadora Filmes.vbproj.GenerateResource.Cache
+obj\Release\Locadora Filmes.exe
+obj\Release\Locadora Filmes.xml
+obj\Release\Locadora Filmes.pdb
+obj\Release\Locadora_Filmes.Cliente.resources
+obj\Debug\Locadora_Filmes.Cliente.resources
+obj\Debug\Locadora_Filmes.Devolucao.resources
+obj\Debug\Locadora_Filmes.Modelo.resources
+obj\Debug\Locadora_Filmes.Movimento.resources
+obj\Debug\Locadora_Filmes.Entrada.resources
+obj\Debug\Locadora_Filmes.Login.resources
+obj\Debug\Locadora_Filmes.Sobre.resources
+obj\Debug\Locadora_Filmes.Acesso.resources
+obj\Release\Locadora_Filmes.Acesso.resources
+obj\Release\Locadora_Filmes.Devolucao.resources
+obj\Release\Locadora_Filmes.Entrada.resources
+obj\Release\Locadora_Filmes.Login.resources
+obj\Release\Locadora_Filmes.Movimento.resources
+obj\Release\Locadora_Filmes.Sobre.resources
+obj\Release\Locadora_Filmes.Categorias.resources
+obj\Release\Locadora_Filmes.Filme.resources
+obj\Debug\Locadora_Filmes.Categorias.resources
+obj\Debug\Locadora_Filmes.Filme.resources
+obj\Debug\Locadora_Filmes.TodasCategorias.resources

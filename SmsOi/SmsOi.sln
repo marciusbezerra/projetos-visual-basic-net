@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SmsOi", "SmsOi.vbproj", "{A5F5CE38-9CE8-4B64-BC05-4253A2C50417}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A5F5CE38-9CE8-4B64-BC05-4253A2C50417}.Debug.ActiveCfg = Debug|.NET
+		{A5F5CE38-9CE8-4B64-BC05-4253A2C50417}.Debug.Build.0 = Debug|.NET
+		{A5F5CE38-9CE8-4B64-BC05-4253A2C50417}.Release.ActiveCfg = Release|.NET
+		{A5F5CE38-9CE8-4B64-BC05-4253A2C50417}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

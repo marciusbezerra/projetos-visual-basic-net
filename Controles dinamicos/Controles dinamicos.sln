@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Controles dinamicos", "Controles dinamicos.vbproj", "{498BE66B-B4E5-43E7-ADE9-6E610CF2A08D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{498BE66B-B4E5-43E7-ADE9-6E610CF2A08D}.Debug.ActiveCfg = Debug|.NET
+		{498BE66B-B4E5-43E7-ADE9-6E610CF2A08D}.Debug.Build.0 = Debug|.NET
+		{498BE66B-B4E5-43E7-ADE9-6E610CF2A08D}.Release.ActiveCfg = Release|.NET
+		{498BE66B-B4E5-43E7-ADE9-6E610CF2A08D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

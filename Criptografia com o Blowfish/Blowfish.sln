@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Blowfish", "Blowfish.vbproj", "{5B40367B-DF6D-4402-99B5-FA737DFB3034}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5B40367B-DF6D-4402-99B5-FA737DFB3034}.Debug.ActiveCfg = Debug|.NET
+		{5B40367B-DF6D-4402-99B5-FA737DFB3034}.Debug.Build.0 = Debug|.NET
+		{5B40367B-DF6D-4402-99B5-FA737DFB3034}.Release.ActiveCfg = Release|.NET
+		{5B40367B-DF6D-4402-99B5-FA737DFB3034}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

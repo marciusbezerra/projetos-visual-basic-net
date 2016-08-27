@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "VB6_ADO.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "VB6_ADO"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "VB6_ADO.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "D:\Servicos\Para o CD RW\Prog\Visual Basic .NET\Migracao VB6\VB .NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "D:\Servicos\Para o CD RW\Prog\Visual Basic .NET\Migracao VB6\VB6 ADO\VB6_ADO.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "D:\Servicos\Para o CD RW\Prog\Visual Basic .NET\Migracao VB6\VB6 ADO\frmVB6_ADO.frm"
+        NewPath = "D:\Servicos\Para o CD RW\Prog\Visual Basic .NET\Migracao VB6\VB .NET\frmVB6_ADO.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Form_QueryUnload" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "frmVB6_ADO"
+                ObjectType = "Form"
+                PME = "QueryUnload"
+            >Form event frmVB6_ADO.QueryUnload has a new behavior.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "D:\Servicos\Para o CD RW\Prog\Visual Basic .NET\Migracao VB6\VB6 ADO\frmClip.frm"
+        NewPath = "D:\Servicos\Para o CD RW\Prog\Visual Basic .NET\Migracao VB6\VB .NET\frmClip.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Command1_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "Clipboard"
+                ObjectType = "Clipboard"
+                PME = "SetText"
+            >Clipboard method Clipboard.SetText was not upgraded.</Issue>
+        </Section>
+        <Section Name = "Command2_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "Clipboard"
+                ObjectType = "Clipboard"
+                PME = "GetText"
+            >Clipboard method Clipboard.GetText was not upgraded.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

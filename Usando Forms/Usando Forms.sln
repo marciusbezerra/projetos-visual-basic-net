@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Usando Forms", "Usando Forms.vbproj", "{497B5DEC-2D26-443E-BB1B-35630514C2C1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{497B5DEC-2D26-443E-BB1B-35630514C2C1}.Debug.ActiveCfg = Debug|.NET
+		{497B5DEC-2D26-443E-BB1B-35630514C2C1}.Debug.Build.0 = Debug|.NET
+		{497B5DEC-2D26-443E-BB1B-35630514C2C1}.Release.ActiveCfg = Release|.NET
+		{497B5DEC-2D26-443E-BB1B-35630514C2C1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

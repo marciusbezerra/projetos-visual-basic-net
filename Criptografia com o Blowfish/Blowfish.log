@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Blowfish.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Blowfish"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "Blowfish.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Blowfish.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\frmBlowfish.frm"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\frmBlowfish.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "cmdEncrypt_Click" >
+            <Issue
+                Type = "ToDo"
+                Number = "1059"
+            >Code was upgraded to use System.Text.UnicodeEncoding.Unicode.GetBytes() which may not have the same behavior.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbFromUnicode"
+            >Constant vbFromUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesEnc().</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "cmdDecrypt_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesDec().</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "cmdSetKey_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromHex().</Issue>
+            <Issue
+                Type = "ToDo"
+                Number = "1059"
+            >Code was upgraded to use System.Text.UnicodeEncoding.Unicode.GetBytes() which may not have the same behavior.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbFromUnicode"
+            >Constant vbFromUnicode was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\basBlfArrays.txt"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\basBlfArrays.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "blf_LoadArrays" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object vntA.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "array"
+            >Array has a new behavior.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object vntA().</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\basBlowfish.txt"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\basBlowfish.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\basUnsignedWord.txt"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\basUnsignedWord.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\basRadix64.txt"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\basRadix64.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "EncodeBytes64" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "DecodeBytes64" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object DecodeBytes64.</Issue>
+        </Section>
+        <Section Name = "EncodeStr64" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "DecodeStr64" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\basConvert.txt"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\basConvert.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "cv_BytesFromHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromHex.</Issue>
+        </Section>
+        <Section Name = "cv_WordsFromHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_WordsFromHex.</Issue>
+        </Section>
+        <Section Name = "cv_HexFromWords" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Hex"
+            >Couldn't resolve default property of object aWords().</Issue>
+        </Section>
+        <Section Name = "HexFromByte" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object x.</Issue>
+        </Section>
+        <Section Name = "testWordsHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object aWords.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_WordsFromHex().</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\basBlowfishByteFns.txt"
+        NewPath = "C:\Documents and Settings\Marcius\Desktop\BlowfishVB_6\Project1.NET\basBlowfishByteFns.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "CopyMemory" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "blf_BytesRaw" >
+            <Issue
+                Type = "Compile"
+                Number = "1040"
+                PME = "VarPtr"
+            >VarPtr function is not supported.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesRaw.</Issue>
+        </Section>
+        <Section Name = "blf_BytesEnc" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object PadBytes().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesRaw().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesEnc.</Issue>
+        </Section>
+        <Section Name = "blf_BytesDec" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesRaw().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object UnpadBytes().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesDec.</Issue>
+        </Section>
+        <Section Name = "PadBytes" >
+            <Issue
+                Type = "Compile"
+                Number = "1040"
+                PME = "VarPtr"
+            >VarPtr function is not supported.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object PadBytes.</Issue>
+        </Section>
+        <Section Name = "UnpadBytes" >
+            <Issue
+                Type = "Compile"
+                Number = "1040"
+                PME = "VarPtr"
+            >VarPtr function is not supported.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object UnpadBytes.</Issue>
+        </Section>
+        <Section Name = "TestPadBytes" >
+            <Issue
+                Type = "ToDo"
+                Number = "1059"
+            >Code was upgraded to use System.Text.UnicodeEncoding.Unicode.GetBytes() which may not have the same behavior.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbFromUnicode"
+            >Constant vbFromUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object PadBytes().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object UnpadBytes().</Issue>
+        </Section>
+        <Section Name = "blf_BytesEncRawCBC" >
+            <Issue
+                Type = "Compile"
+                Number = "1040"
+                PME = "VarPtr"
+            >VarPtr function is not supported.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesEncRawCBC.</Issue>
+        </Section>
+        <Section Name = "blf_BytesDecRawCBC" >
+            <Issue
+                Type = "Compile"
+                Number = "1040"
+                PME = "VarPtr"
+            >VarPtr function is not supported.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesDecRawCBC.</Issue>
+        </Section>
+        <Section Name = "blf_BytesEncCBC" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object PadBytes().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesEncRawCBC().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesEncCBC.</Issue>
+        </Section>
+        <Section Name = "blf_BytesDecCBC" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesDecRawCBC().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object UnpadBytes().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object blf_BytesDecCBC.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Datas e horas", "Datas e horas.vbproj", "{E94459D2-50CD-461B-8FF7-F85F1FB419CB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E94459D2-50CD-461B-8FF7-F85F1FB419CB}.Debug.ActiveCfg = Debug|.NET
+		{E94459D2-50CD-461B-8FF7-F85F1FB419CB}.Debug.Build.0 = Debug|.NET
+		{E94459D2-50CD-461B-8FF7-F85F1FB419CB}.Release.ActiveCfg = Release|.NET
+		{E94459D2-50CD-461B-8FF7-F85F1FB419CB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

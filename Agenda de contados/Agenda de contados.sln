@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Agenda de contados", "Agenda de contados.vbproj", "{6D71298E-5B83-4D98-BA53-473CBC4FE9A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6D71298E-5B83-4D98-BA53-473CBC4FE9A3}.Debug.ActiveCfg = Debug|.NET
+		{6D71298E-5B83-4D98-BA53-473CBC4FE9A3}.Debug.Build.0 = Debug|.NET
+		{6D71298E-5B83-4D98-BA53-473CBC4FE9A3}.Release.ActiveCfg = Release|.NET
+		{6D71298E-5B83-4D98-BA53-473CBC4FE9A3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

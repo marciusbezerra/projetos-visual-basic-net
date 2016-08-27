@@ -1,0 +1,105 @@
+<VisualStudioProject>
+    <VisualBasic ProjectType = "Local" >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                ApplicationRoot = "true"
+                AssemblyBuildNumber = "0"
+                AssemblyCompany = ""
+                AssemblyCopyright = ""
+                AssemblyDescription = ""
+                AssemblyKeyContainerName = ""
+                AssemblyMajorVersion = "1"
+                AssemblyMinorVersion = "0"
+                AssemblyName = "Contatos"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                AssemblyProduct = ""
+                AssemblyRevisionNumber = "0"
+                AssemblyTitle = ""
+                AssemblyTrademark = ""
+                CLSCompliant = "true"
+                DefaultClientScript = "JScript"
+                DefaultDTCPlatform = "Server"
+                DefaultHTMLPageLayout = "Linear"
+                DefaultTargetSchema = "HTML32"
+                DefaultServerScript = "VBScript"
+                DefaultSessionState = "True"
+                GenerateRevisionNumber = "true"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                _RootNamespace = "Contatos"
+                StartupObject = "Contatos.Form1"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "0"
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    OutputPath = "bin\"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "0"
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    OutputPath = "bin\"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference Name = "System" />
+                <Reference Name = "System.Drawing" />
+                <Reference Name = "System.WinForms" />
+                <Reference Name = "System.WinForms.Design" />
+                <Reference Name = "System.Data" />
+                <Reference Name = "System.Configuration" />
+                <Reference Name = "System.Diagnostics" />
+                <Reference Name = "System.XML.Serialization" />
+                <Reference Name = "Microsoft.Win32.Interop" />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Diagnostics" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Contatos.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dsClientes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetCodeGenerator"
+                    LastGenOutput = "dsClientes.vb"
+                />
+                <File
+                    RelPath = "dsClientes.vb"
+                    DependentUpon = "dsClientes.xsd"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

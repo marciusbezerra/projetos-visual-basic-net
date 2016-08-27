@@ -1,0 +1,23 @@
+<xsd:schema id="dsClientes" targetNamespace="http://www.tempuri.org/dsClientes.xsd" xmlns="http://www.tempuri.org/dsClientes.xsd" xmlns:xsd="http://www.w3.org/1999/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:element name="Clientes">
+    <xsd:complexType content="elementOnly">
+      <xsd:all>
+        <xsd:element name="Endereco" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ID" minOccurs="0" type="xsd:int"/>
+        <xsd:element name="Nome" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="Telefone" minOccurs="0" type="xsd:string"/>
+      </xsd:all>
+    </xsd:complexType>
+    <xsd:unique name="Constraint1">
+      <xsd:selector>.</xsd:selector>
+      <xsd:field>ID</xsd:field>
+    </xsd:unique>
+  </xsd:element>
+  <xsd:element name="dsClientes" msdata:IsDataSet="True">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element ref="Clientes"/>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

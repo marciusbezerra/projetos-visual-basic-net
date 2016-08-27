@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Filtrando e ordenando dados (DataView)", "Filtrando e ordenando dados (DataView).vbproj", "{F14A94FC-C19B-4E17-AA72-B1D3A89C1B7C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F14A94FC-C19B-4E17-AA72-B1D3A89C1B7C}.Debug.ActiveCfg = Debug|.NET
+		{F14A94FC-C19B-4E17-AA72-B1D3A89C1B7C}.Debug.Build.0 = Debug|.NET
+		{F14A94FC-C19B-4E17-AA72-B1D3A89C1B7C}.Release.ActiveCfg = Release|.NET
+		{F14A94FC-C19B-4E17-AA72-B1D3A89C1B7C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

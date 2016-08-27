@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Operacoes em banco de dados II", "Operacoes em banco de dados II.vbproj", "{145D8ED4-EB3E-4D17-A070-B7245E8702CD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{145D8ED4-EB3E-4D17-A070-B7245E8702CD}.Debug.ActiveCfg = Debug|.NET
+		{145D8ED4-EB3E-4D17-A070-B7245E8702CD}.Debug.Build.0 = Debug|.NET
+		{145D8ED4-EB3E-4D17-A070-B7245E8702CD}.Release.ActiveCfg = Release|.NET
+		{145D8ED4-EB3E-4D17-A070-B7245E8702CD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Trabalhando com Strings", "Trabalhando com Strings.vbproj", "{1BA0D0E0-B143-48CE-87AF-169892A78A1D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1BA0D0E0-B143-48CE-87AF-169892A78A1D}.Debug.ActiveCfg = Debug|.NET
+		{1BA0D0E0-B143-48CE-87AF-169892A78A1D}.Debug.Build.0 = Debug|.NET
+		{1BA0D0E0-B143-48CE-87AF-169892A78A1D}.Release.ActiveCfg = Release|.NET
+		{1BA0D0E0-B143-48CE-87AF-169892A78A1D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Imprime arquivo texto", "Imprime arquivo texto.vbproj", "{838174DB-79E0-4AD8-8ABD-8D4A2BFAAF06}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{838174DB-79E0-4AD8-8ABD-8D4A2BFAAF06}.Debug.ActiveCfg = Debug|.NET
+		{838174DB-79E0-4AD8-8ABD-8D4A2BFAAF06}.Debug.Build.0 = Debug|.NET
+		{838174DB-79E0-4AD8-8ABD-8D4A2BFAAF06}.Release.ActiveCfg = Release|.NET
+		{838174DB-79E0-4AD8-8ABD-8D4A2BFAAF06}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

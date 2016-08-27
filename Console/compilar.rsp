@@ -1,0 +1,4 @@
+#Arquivo de compilacao, para ser chamado como
+#vbc @compilar.dsp target:exe console.vb
+
+/r:Microsoft.VisualBasic.dll
